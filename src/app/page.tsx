@@ -104,9 +104,9 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <h2 className="text-4xl font-bold text-yellow">
+            <h3 className="text-4xl font-bold text-yellow">
               Let Me Introduce Myself
-            </h2>
+            </h3>
             <p className="mt-4 text-justify text-white">
               I am a student at Universitas Negeri Surabaya majoring in
               Informatics Engineering. I am passionate about programming and
