@@ -9,7 +9,7 @@ export default function Puuter() {
         <div className="flex gap-4 mr-32">
           {/* GitHub */}
           <Link
-            href="https://github.com/your-github-profile"
+            href="https://github.com/actonaa"
             className="flex justify-center items-center w-10 h-10 rounded-full bg-yellow text-black hover:opacity-80"
             aria-label="GitHub"
           >
@@ -18,7 +18,7 @@ export default function Puuter() {
 
           {/* Instagram */}
           <Link
-            href="https://instagram.com/your-instagram-profile"
+            href="https://www.instagram.com/act_putraa/"
             className="flex justify-center items-center w-10 h-10 rounded-full bg-yellow text-black hover:opacity-80"
             aria-label="Instagram"
           >
@@ -27,7 +27,7 @@ export default function Puuter() {
 
           {/* LinkedIn */}
           <Link
-            href="https://linkedin.com/in/your-linkedin-profile"
+            href="https://linkedin.com/in/actona-putra-002a76255/"
             className="flex justify-center items-center w-10 h-10 rounded-full bg-yellow text-black hover:opacity-80"
             aria-label="LinkedIn"
           >

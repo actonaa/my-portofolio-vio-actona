@@ -76,7 +76,7 @@ export default function Home() {
               <div className="flex gap-6 mt-4">
                 {/* GitHub */}
                 <Link
-                  href="https://github.com/your-github-profile"
+                  href="https://github.com/actonaa"
                   className="flex justify-center items-center w-12 h-12 rounded-full bg-black text-white hover:opacity-80"
                   aria-label="GitHub"
                 >
@@ -85,7 +85,7 @@ export default function Home() {
 
                 {/* Instagram */}
                 <Link
-                  href="https://instagram.com/your-instagram-profile"
+                  href="https://www.instagram.com/act_putraa/"
                   className="flex justify-center items-center w-12 h-12 rounded-full bg-black text-white hover:opacity-80"
                   aria-label="Instagram"
                 >
@@ -94,7 +94,7 @@ export default function Home() {
 
                 {/* LinkedIn */}
                 <Link
-                  href="https://linkedin.com/in/your-linkedin-profile"
+                  href="https://linkedin.com/in/actona-putra-002a76255/"
                   className="flex justify-center items-center w-12 h-12 rounded-full bg-black text-white hover:opacity-80"
                   aria-label="LinkedIn"
                 >
