@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="bg-white pt-16 pb-12">
-      <div className=" max-w-6xl mx-auto grid grid-cols-2 gap-16 items-center">
+      <div className=" max-w-5xl mx-auto grid grid-cols-2 gap-16 items-center komputer:max-w-6xl">
         <div className="max-w-sm">
           <h1 className="text-8xl font-bold leading-tight text-black">
             Hello, <span className="block">I{"'"}m Vio !</span>
@@ -16,10 +16,10 @@ export default function Home() {
             eaque laudantium dolores possimus eum amet ratione.
           </p>
           <Link
-            href="linkedin.com/in/actona-putra-002a76255/"
-            className="flex items-center justify-center gap-2 w-full py-2 px-4 rounded-full bg-orange text-center text-white mt-6 hover:opacity-80"
+            href="https://linkedin.com/in/actona-putra-002a76255/"
+            className="flex items-center justify-center gap-2 w-full py-2 px-4 rounded-full bg-orange text-center text-white mt-6"
           >
-            <i className="bx bx-search"></i>
+            <i className="bx bx-search "></i>
             linkedin.com/in/actona-putra-002a76255/
           </Link>
         </div>
@@ -29,19 +29,19 @@ export default function Home() {
             alt="profile"
             width={700}
             height={700}
-            className="w-[700px] h-[500px] absolute z-[3] -bottom-[154px] -left-[50px]"
+            className="w-[1000px] h-[500px] absolute z-[3] -bottom-[154px] left-[10px]"
           />
           {/* Lingkaran Kuning */}
-          <div className="py-2 w-[200px] text-center rounded-full bg-yellow z-[4] absolute bottom-[10px] -left-16">
+          <div className="py-2 w-[200px] text-center rounded-full bg-yellow z-[4] absolute bottom-[10px] left-[10px]">
             7th Nov 2003
           </div>
-          <div className="py-2 w-[200px] text-center rounded-full bg-yellow z-[4] absolute -bottom-[80px] right-16">
+          <div className="py-2 w-[200px] text-center rounded-full bg-yellow z-[4] absolute -bottom-[80px] right-4">
             Indonesian
           </div>
           {/* Lingkaran Putih */}
-          <div className="w-[275px] h-[275px] bg-white rounded-full absolute z-[2] -bottom-[150px] left-[70px]"></div>
+          <div className="w-[275px] h-[275px] bg-white rounded-full absolute z-[2] -bottom-[150px] left-[100px] komputer:left-[130px]"></div>
           {/* Kotak */}
-          <div className="w-full absolute -bottom-[340px]">
+          <div className="w-full absolute -bottom-[340px] left-[60px]">
             <div className="bg-darkgreen w-3/4 h-[290px]"></div>
             <div className="bg-black w-3/4">
               <div className="text-white w-[200px] mx-auto text-center py-4 text-sm">

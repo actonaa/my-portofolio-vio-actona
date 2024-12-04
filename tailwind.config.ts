@@ -21,6 +21,11 @@ export default {
         abu: "#64748b",
       },
     },
+    screens: {
+      handphone: { max: "600px" },
+      tablet: { max: "768px" },
+      komputer: { min: "1440px" },
+    },
   },
   plugins: [],
 } satisfies Config;
