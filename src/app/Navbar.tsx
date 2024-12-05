@@ -35,13 +35,13 @@ export default function Navbar() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="">About Me</Link>
+            <Link href="/skill">Skills</Link>
           </li>
           <li>
-            <Link href="">Projects</Link>
+            <Link href="/project">Projects</Link>
           </li>
           <li>
-            <Link href="">Resume</Link>
+            <Link href="/resume">Resume</Link>
           </li>
           <li>
             <Link

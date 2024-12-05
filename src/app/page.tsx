@@ -12,7 +12,7 @@ export default function Home() {
             </h1>
             <Link
               href="https://linkedin.com/in/actona-putra-002a76255/"
-              className="flex items-center justify-center gap-2 w-full py-2 px-4 rounded-full bg-orange text-center text-white mt-6"
+              className="flex items-center justify-center gap-2 w-full py-2 px-4 rounded-full bg-orange text-center text-white mt-6 shadow-lg hover:opacity-80"
             >
               <i className="bx bx-search "></i>
               linkedin.com/in/actona-putra-002a76255/
@@ -37,8 +37,8 @@ export default function Home() {
             <div className="w-[275px] h-[275px] bg-white rounded-full absolute z-[2] -bottom-[150px] left-[100px] komputer:left-[130px]"></div>
             {/* Kotak */}
             <div className="w-full absolute -bottom-[340px] left-[60px]">
-              <div className="bg-darkgreen w-3/4 h-[290px]"></div>
-              <div className="bg-black w-3/4">
+              <div className="bg-darkgreen w-3/4 h-[290px] shadow-xl"></div>
+              <div className="bg-black w-3/4 shadow-xl">
                 <div className="text-white w-[200px] mx-auto text-center py-4 text-sm">
                   <h2 className="text-4xl font-bold mb-2">Contact</h2>
                   <p className="py-1 flex items-center text-center">
@@ -77,7 +77,7 @@ export default function Home() {
                 {/* GitHub */}
                 <Link
                   href="https://github.com/actonaa"
-                  className="flex justify-center items-center w-12 h-12 rounded-full bg-black text-white hover:opacity-80"
+                  className="flex justify-center items-center w-12 h-12 rounded-full bg-black text-white shadow-lg hover:opacity-80"
                   aria-label="GitHub"
                 >
                   <i className="bx bxl-github text-2xl"></i>
@@ -86,7 +86,7 @@ export default function Home() {
                 {/* Instagram */}
                 <Link
                   href="https://www.instagram.com/act_putraa/"
-                  className="flex justify-center items-center w-12 h-12 rounded-full bg-black text-white hover:opacity-80"
+                  className="flex justify-center items-center w-12 h-12 rounded-full bg-black text-white shadow-lg hover:opacity-80"
                   aria-label="Instagram"
                 >
                   <i className="bx bxl-instagram text-2xl"></i>
@@ -95,7 +95,7 @@ export default function Home() {
                 {/* LinkedIn */}
                 <Link
                   href="https://linkedin.com/in/actona-putra-002a76255/"
-                  className="flex justify-center items-center w-12 h-12 rounded-full bg-black text-white hover:opacity-80"
+                  className="flex justify-center items-center w-12 h-12 rounded-full bg-black text-white shadow-lg hover:opacity-80"
                   aria-label="LinkedIn"
                 >
                   <i className="bx bxl-linkedin text-2xl"></i>
