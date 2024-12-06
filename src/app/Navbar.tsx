@@ -1,9 +1,17 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation"; // Menggunakan usePathname dari next/navigation
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMounted, setIsMounted] = useState(false); // State untuk mengecek apakah komponen sudah dimuat
+  const pathname = usePathname(); // Mendapatkan pathname dengan usePathname
+
+  // Efek untuk menandakan komponen sudah dimuat
+  useEffect(() => {
+    setIsMounted(true); // Set true setelah komponen dimuat
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,6 +24,13 @@ export default function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  // Fungsi untuk memeriksa apakah link sedang aktif
+  const isActiveLink = (path: string) => pathname === path;
+
+  // Render hanya setelah komponen dimuat
+  if (!isMounted) return null;
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
@@ -30,17 +45,45 @@ export default function Navbar() {
           Vio Actona Putra
         </Link>
         <ul className="flex gap-8 items-center text-darkgreen">
-          <li>
-            <Link href="/">Home</Link>
+          <li className="relative">
+            <Link
+              href="/"
+              className={`navbar-link ${
+                isActiveLink("/") ? "text-orange font-semibold" : ""
+              }`}
+            >
+              Home
+            </Link>
           </li>
-          <li>
-            <Link href="/skill">Skills</Link>
+          <li className="relative">
+            <Link
+              href="/skill"
+              className={`navbar-link ${
+                isActiveLink("/skill") ? "text-orange font-semibold" : ""
+              }`}
+            >
+              Skills
+            </Link>
           </li>
-          <li>
-            <Link href="/project">Projects</Link>
+          <li className="relative">
+            <Link
+              href="/project"
+              className={`navbar-link ${
+                isActiveLink("/project") ? "text-orange font-semibold" : ""
+              }`}
+            >
+              Projects
+            </Link>
           </li>
-          <li>
-            <Link href="/resume">Resume</Link>
+          <li className="relative">
+            <Link
+              href="/resume"
+              className={`navbar-link ${
+                isActiveLink("/resume") ? "text-orange font-semibold" : ""
+              }`}
+            >
+              Resume
+            </Link>
           </li>
           <li>
             <Link

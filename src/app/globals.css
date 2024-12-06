@@ -28,3 +28,23 @@ h2,
 h3 {
   font-family: var(--font-playfair-display);
 }
+
+.navbar-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #b6410f;
+  transition: width 0.3s ease;
+}
+
+.navbar-link:hover::after {
+  width: 100%;
+}

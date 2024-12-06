@@ -28,7 +28,7 @@ export default function ProjectPage() {
           <Card
             title="Proyek Tanpa Demo"
             description="Ini adalah deskripsi proyek tanpa demo."
-            imageSrc="/no-demo.png"
+            imageSrc="/weeboo.png"
             githubLink="https://github.com/another-repo"
             // Tidak ada demoLink
           />
