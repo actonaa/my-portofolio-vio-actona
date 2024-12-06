@@ -10,7 +10,7 @@ export default function Puuter() {
           {/* GitHub */}
           <Link
             href="https://github.com/actonaa"
-            className="flex justify-center items-center w-10 h-10 rounded-full bg-yellow text-black hover:opacity-80"
+            className="flex justify-center items-center w-10 h-10 ml-16 rounded-full bg-yellow text-black hover:opacity-80"
             aria-label="GitHub"
           >
             <i className="bx bxl-github text-2xl"></i>

@@ -25,12 +25,11 @@ export default function Navbar() {
       <div className="flex justify-between max-w-6xl mx-auto py-4 komputer:max-w-7xl">
         <Link
           href="https://linkedin.com/in/actona-putra-002a76255/"
-          className="text-2xl font-bold self-center"
+          className="text-2xl font-bold self-center text-darkgreen"
         >
-          <i className="bx bxs-star mr-5 text-xl text-orange"></i>Vio Actona
-          Putra
+          Vio Actona Putra
         </Link>
-        <ul className="flex gap-8 items-center">
+        <ul className="flex gap-8 items-center text-darkgreen">
           <li>
             <Link href="/">Home</Link>
           </li>
@@ -46,7 +45,7 @@ export default function Navbar() {
           <li>
             <Link
               href="https://github.com/actonaa"
-              className="flex items-center justify-center gap-2 py-2 px-4 bg-yellow rounded-full hover:opacity-80"
+              className="flex items-center justify-center gap-2 py-2 px-4 text-black bg-yellow rounded-full hover:opacity-80"
             >
               <i className="bx bx-git-branch"></i>{" "}
               <i className="bx bxl-github"></i>

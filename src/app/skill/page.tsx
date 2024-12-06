@@ -5,7 +5,7 @@ export default function AboutPage() {
     <div className="bg-darkgreen pt-44 pb-32">
       <div className="max-w-5xl mx-auto komputer:max-w-6xl text-white">
         <h1 className="flex justify-center items-center text-4xl mb-8">
-          Professional Skillset
+          Professional <span className="text-yellow ml-2">Skillset</span>
         </h1>
         <div className="grid grid-cols-4 gap-4">
           <Card
@@ -82,7 +82,7 @@ export default function AboutPage() {
           />
         </div>
         <h1 className="flex justify-center items-center text-4xl mb-8 mt-16">
-          Tools Work
+          <span className="text-yellow mr-2">Tools</span> Work
         </h1>
         <div className="grid grid-cols-5 gap-4">
           <Card
