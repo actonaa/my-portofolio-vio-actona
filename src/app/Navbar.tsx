@@ -24,7 +24,7 @@ export default function Navbar() {
     >
       <div className="flex justify-between max-w-6xl mx-auto py-4 komputer:max-w-7xl">
         <Link
-          href="https://linkedin.com/in/actona-putra-002a76255/"
+          href="https://www.linkedin.com/in/vio-actona-putra-002a76255/"
           className="text-2xl font-bold self-center text-darkgreen"
         >
           Vio Actona Putra

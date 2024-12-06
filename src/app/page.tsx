@@ -11,11 +11,11 @@ export default function Home() {
               Hello, <span className="block">I{"'"}m Vio !</span>
             </h1>
             <Link
-              href="https://linkedin.com/in/actona-putra-002a76255/"
+              href="https://www.linkedin.com/in/vio-actona-putra-002a76255/"
               className="flex items-center justify-center gap-2 w-full py-2 px-4 rounded-full bg-orange text-center text-white mt-6 shadow-md shadow-darkgreen hover:opacity-80"
             >
               <i className="bx bx-search "></i>
-              linkedin.com/in/actona-putra-002a76255/
+              linkedin.com/in/vio-actona-putra-002a76255/
             </Link>
           </div>
           <div className="relative items-center">
@@ -94,7 +94,7 @@ export default function Home() {
 
                 {/* LinkedIn */}
                 <Link
-                  href="https://linkedin.com/in/actona-putra-002a76255/"
+                  href="https://www.linkedin.com/in/vio-actona-putra-002a76255/"
                   className="flex justify-center items-center w-12 h-12 rounded-full bg-black text-white shadow-lg hover:opacity-80"
                   aria-label="LinkedIn"
                 >
