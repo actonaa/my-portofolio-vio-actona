@@ -1,6 +1,24 @@
+"use client";
+import React, { useState, useEffect } from "react";
 import Card from "./Card";
+import Loading from "./loading";
 
 export default function ProjectPage() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Simulating data fetching
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false); // Set loading state to false after 3 seconds
+    }, 500);
+
+    return () => clearTimeout(timer); // Clean up the timer on component unmount
+  }, []);
+
+  if (isLoading) {
+    return <Loading />;
+  }
+
   return (
     <div className="bg-darkgreen pt-44 pb-32">
       <div className="max-w-5xl mx-auto komputer:max-w-6xl text-white">
