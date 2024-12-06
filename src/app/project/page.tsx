@@ -8,7 +8,7 @@ export default function ProjectPage() {
           My Recent<span className="text-yellow ml-2">Work</span>
         </h1>
         <p className="text-center">
-          Here are a few project I{"'"}ve worked on recently.
+          Here are a few projects I{"'"}ve worked on recently.
         </p>
         <div className="grid grid-cols-3 gap-12 mt-16">
           <Card
@@ -23,14 +23,14 @@ export default function ProjectPage() {
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi ex ratione, alias minima ipsam facilis, autem assumenda rerum incidunt aut dignissimos praesentium reprehenderit earum consequuntur laborum! Laudantium, fugiat! Porro!"
             imageSrc="/contact-nodejs.png"
             githubLink="https://github.com/another-repo"
-            // Tidak ada demoLink
+            // No demoLink
           />
           <Card
             title="Proyek Tanpa Demo"
             description="Ini adalah deskripsi proyek tanpa demo."
             imageSrc="/weeboo.png"
             githubLink="https://github.com/another-repo"
-            // Tidak ada demoLink
+            // No demoLink
           />
         </div>
       </div>
