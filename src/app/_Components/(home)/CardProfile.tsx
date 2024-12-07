@@ -10,7 +10,7 @@ const CardProfile = () => {
           alt="profile"
           width={700}
           height={700}
-          className="w-[1000px] h-[500px] absolute z-[3] -bottom-[154px] left-[10px] tablet:w-[500px] tablet:h-[400px] tablet:left-1/2 tablet:-translate-x-1/2 tablet:-bottom-[266px] hp:w-[500px] hp:h-[400px] hp:left-[20px]  hp:-bottom-[167px]"
+          className="w-[1000px] h-[500px] absolute z-[3] -bottom-[154px] left-[10px] tablet:w-[500px] tablet:h-[400px] tablet:left-1/2 tablet:-translate-x-1/2 tablet:-bottom-[266px] hp:w-[500px] hp:h-[350px] hp:left-[20px] hp:-bottom-[167px]"
         />
 
         {/* Lingkaran Kuning */}
@@ -22,13 +22,13 @@ const CardProfile = () => {
         </div>
 
         {/* Lingkaran Putih */}
-        <div className="w-[275=px] h-[275px] bg-white rounded-full absolute z-[2] -bottom-[150px] left-[100px] komputer:left-[130px] tablet:w-[180px] tablet:h-[180px] tablet:-bottom-[230px] tablet:left-[160px] hp:w-[200px] hp:h-[200px] hp:-bottom-[150px] hp:left-[80px]"></div>
+        <div className="w-[275=px] h-[275px] bg-white rounded-full absolute z-[2] -bottom-[150px] left-[100px] komputer:left-[130px] tablet:w-[180px] tablet:h-[180px] tablet:-bottom-[230px] tablet:left-[160px] hp:w-[200px] hp:h-[200px] hp:-bottom-[150px] hp:left-[95px]"></div>
 
         {/* Kotak Informasi */}
         <div className="w-full absolute -bottom-[340px] left-[60px] tablet:left-[130px] tablet:-bottom-[450px] hp:left-[50px] hp:-bottom-[350px]">
           <div className="bg-darkgreen w-3/4 h-[290px] shadow-xl shadow-darkgreen tablet:w-1/2 tablet:h-[230px] hp:w-3/4 hp:h-[230px]"></div>
           <div className="bg-black w-3/4 shadow-lg shadow-darkgreen tablet:w-1/2 hp:w-3/4">
-            <div className="text-white w-[200px] mx-auto text-center py-4 text-sm">
+            <div className="text-white w-[200px] mx-auto text-center py-4 text-sm hp:w-[170px]">
               <h2 className="text-4xl font-bold mb-2 tablet:text-3xl hp:text-3xl">
                 Contact
               </h2>
