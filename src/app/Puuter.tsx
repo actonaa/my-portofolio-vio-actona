@@ -27,7 +27,7 @@ export default function Puuter() {
 
           {/* LinkedIn */}
           <Link
-            href="https://www.linkedin.com/in/vio-actona-putra-002a76255/"
+            href="https://www.linkedin.com/in/vio-actona-putra/"
             className="flex justify-center items-center w-10 h-10 rounded-full bg-yellow text-black hover:opacity-80"
             aria-label="LinkedIn"
           >

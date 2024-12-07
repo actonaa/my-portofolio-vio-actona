@@ -10,7 +10,7 @@ export default function ProjectPage() {
         <p className="text-center">
           Here are a few projects I{"'"}ve worked on recently.
         </p>
-        <div className="grid grid-cols-3 gap-12 mt-16">
+        <div className="grid grid-cols-3 gap-12 mt-16 hp:grid-cols-1 hp:px-8 ">
           <CardProject
             title="Catatan Belanja"
             description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam eius rerum numquam mollitia inventore ipsum!"

@@ -5,14 +5,14 @@ export default function ResumePage() {
         <a
           href="/CV-Vio-Actona-Putra.pdf"
           download="CV-Vio-Actona-Putra.pdf"
-          className="flex w-1/4 justify-center items-center text-lg mb-2 py-2 px-6 bg-orange rounded-full hover:opacity-80"
+          className="flex w-1/4 justify-center items-center text-lg mb-2 py-2 px-6 bg-orange rounded-full hover:opacity-80 hp:w-3/4"
         >
           Download My Resume
         </a>
         <iframe
           src="/CV-Vio-Actona-Putra.pdf"
           className="w-full h-[500px] border-0 mt-12"
-          title="Resume"
+          title="CV-Vio-Actona-Putra"
         ></iframe>
       </div>
     </div>

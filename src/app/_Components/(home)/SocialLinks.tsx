@@ -39,7 +39,7 @@ const SocialLinks = () => {
 
           {/* LinkedIn */}
           <Link
-            href="https://www.linkedin.com/in/vio-actona-putra-002a76255/"
+            href="https://www.linkedin.com/in/vio-actona-putra/"
             className="flex justify-center items-center w-12 h-12 rounded-full bg-black text-white shadow-lg hover:opacity-80"
             aria-label="LinkedIn"
           >
