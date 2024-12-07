@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Introduction = () => {
   return (
-    <div className="max-w-sm ml-4 tablet:mx-auto tablet:flex tablet:flex-col tablet:items-center tablet:justify-center tablet:mb-20 hp:mb-20 hp:mx-auto hp:flex hp:flex-col hp:items-center hp:justify-center">
+    <div className="max-w-sm ml-4 tablet:mx-auto tablet:flex tablet:flex-col tablet:items-center tablet:justify-center tablet:mb-20 hp:mb-48 hp:mx-auto hp:flex hp:flex-col hp:items-center hp:justify-center">
       {/* Teks Utama */}
       <h1 className="text-8xl font-bold leading-tight text-black tablet:text-center hp:text-7xl hp:text-center">
         Hello, <span className="block">I{"'"}m Vio!</span>
