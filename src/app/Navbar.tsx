@@ -61,7 +61,7 @@ export default function Navbar() {
               <li>
                 <Link
                   href="/"
-                  className={`navbar-link ${
+                  className={`navbar-link text-darkgreen ${
                     isActiveLink("/") ? "text-orange font-semibold" : ""
                   }`}
                   onClick={() => setIsMenuOpen(false)}
@@ -72,7 +72,7 @@ export default function Navbar() {
               <li>
                 <Link
                   href="/skill"
-                  className={`navbar-link ${
+                  className={`navbar-link text-darkgreen ${
                     isActiveLink("/skill") ? "text-orange font-semibold" : ""
                   }`}
                   onClick={() => setIsMenuOpen(false)}
@@ -83,7 +83,7 @@ export default function Navbar() {
               <li>
                 <Link
                   href="/project"
-                  className={`navbar-link ${
+                  className={`navbar-link text-darkgreen ${
                     isActiveLink("/project") ? "text-orange font-semibold" : ""
                   }`}
                   onClick={() => setIsMenuOpen(false)}
@@ -94,7 +94,7 @@ export default function Navbar() {
               <li>
                 <Link
                   href="/resume"
-                  className={`navbar-link ${
+                  className={`navbar-link text-darkgreen ${
                     isActiveLink("/resume") ? "text-orange font-semibold" : ""
                   }`}
                   onClick={() => setIsMenuOpen(false)}
@@ -121,7 +121,7 @@ export default function Navbar() {
           <li className="relative">
             <Link
               href="/"
-              className={`navbar-link ${
+              className={`navbar-link text-darkgreen ${
                 isActiveLink("/") ? "text-orange font-semibold" : ""
               }`}
             >
@@ -131,7 +131,7 @@ export default function Navbar() {
           <li className="relative">
             <Link
               href="/skill"
-              className={`navbar-link ${
+              className={`navbar-link text-darkgreen ${
                 isActiveLink("/skill") ? "text-orange font-semibold" : ""
               }`}
             >
@@ -141,7 +141,7 @@ export default function Navbar() {
           <li className="relative">
             <Link
               href="/project"
-              className={`navbar-link ${
+              className={`navbar-link text-darkgreen ${
                 isActiveLink("/project") ? "text-orange font-semibold" : ""
               }`}
             >
@@ -151,7 +151,7 @@ export default function Navbar() {
           <li className="relative">
             <Link
               href="/resume"
-              className={`navbar-link ${
+              className={`navbar-link text-darkgreen ${
                 isActiveLink("/resume") ? "text-orange font-semibold" : ""
               }`}
             >
