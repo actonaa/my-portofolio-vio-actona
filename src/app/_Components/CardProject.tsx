@@ -9,7 +9,7 @@ type Props = {
   demoLink?: string;
 };
 
-const Card = ({
+const CardProject = ({
   title,
   description,
   imageSrc,
@@ -43,4 +43,4 @@ const Card = ({
   );
 };
 
-export default Card;
+export default CardProject;

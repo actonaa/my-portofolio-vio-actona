@@ -5,7 +5,7 @@ type Props = {
   borderColor: string;
 };
 
-const Card = ({ icon, iconColor, bgColor, borderColor }: Props) => {
+const CardSkill = ({ icon, iconColor, bgColor, borderColor }: Props) => {
   return (
     <div
       className={`flex flex-col items-center py-4 px-12 border-2 ${borderColor} rounded-lg ${bgColor} shadow-md shadow-lightgreen transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:shadow-lightgreen`}
@@ -15,4 +15,4 @@ const Card = ({ icon, iconColor, bgColor, borderColor }: Props) => {
   );
 };
 
-export default Card;
+export default CardSkill;

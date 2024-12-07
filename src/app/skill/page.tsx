@@ -1,4 +1,4 @@
-import Card from "./Card";
+import CardSkill from "../_Components/CardSkill";
 
 export default function AboutPage() {
   return (
@@ -8,73 +8,73 @@ export default function AboutPage() {
           Professional <span className="text-yellow ml-2">Skillset</span>
         </h1>
         <div className="grid grid-cols-4 gap-4">
-          <Card
+          <CardSkill
             icon="bxl-html5"
             iconColor="text-amber-700"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-css3"
             iconColor="text-blue-600"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-javascript"
             iconColor="text-yellow"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-php"
             iconColor="text-indigo-600"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-go-lang"
             iconColor="text-cyan-500"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-react"
             iconColor="text-sky-500"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-tailwind-css"
             iconColor="text-teal-500"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-nodejs"
             iconColor="text-green-600"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-typescript"
             iconColor="text-blue-400"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-graphql"
             iconColor="text-pink-500"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-postgresql"
             iconColor="text-blue-500"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-mongodb"
             iconColor="text-green-600"
             bgColor="bg-darkgreen"
@@ -85,31 +85,31 @@ export default function AboutPage() {
           <span className="text-yellow mr-2">Tools</span> Work
         </h1>
         <div className="grid grid-cols-5 gap-4">
-          <Card
+          <CardSkill
             icon="bxl-windows"
             iconColor="text-blue-500"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-visual-studio"
             iconColor="text-purple-500"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-git"
             iconColor="text-red-600"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-github"
             iconColor="text-black"
             bgColor="bg-darkgreen"
             borderColor="border-lightgreen"
           />
-          <Card
+          <CardSkill
             icon="bxl-firebase"
             iconColor="text-orange-600"
             bgColor="bg-darkgreen"

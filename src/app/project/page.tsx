@@ -1,4 +1,4 @@
-import Card from "./Card";
+import CardProject from "../_Components/CardProject";
 
 export default function ProjectPage() {
   return (
@@ -11,21 +11,21 @@ export default function ProjectPage() {
           Here are a few projects I{"'"}ve worked on recently.
         </p>
         <div className="grid grid-cols-3 gap-12 mt-16">
-          <Card
+          <CardProject
             title="Catatan Belanja"
             description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam eius rerum numquam mollitia inventore ipsum!"
             imageSrc="/catatan-belanja.png"
             githubLink="https://github.com/your-repo"
             demoLink="https://demo-link.com"
           />
-          <Card
+          <CardProject
             title="Contact CLI NodeJS"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi ex ratione, alias minima ipsam facilis, autem assumenda rerum incidunt aut dignissimos praesentium reprehenderit earum consequuntur laborum! Laudantium, fugiat! Porro!"
             imageSrc="/contact-nodejs.png"
             githubLink="https://github.com/another-repo"
             // No demoLink
           />
-          <Card
+          <CardProject
             title="Proyek Tanpa Demo"
             description="Ini adalah deskripsi proyek tanpa demo."
             imageSrc="/weeboo.png"
