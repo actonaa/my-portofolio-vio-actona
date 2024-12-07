@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function Puuter() {
   return (
     <footer className="bg-black relative bottom-0 left-0 right-0">
-      <div className="flex justify-between items-center text-white max-w-6xl mx-auto py-4 komputer:max-w-7xl">
-        <h4>Design and Development by Vio Actona</h4>
-        <p>Copyright © 2024 Vio Actona</p>
-        <div className="flex gap-4 mr-32">
+      <div className="flex px-6 justify-between items-center text-white max-w-6xl mx-auto py-4 komputer:max-w-7xl tablet:max-w-2xl">
+        <h4 className="tablet:text-sm">Develop by Vio Actona</h4>
+        <p className="tablet:text-sm">Copyright © 2024 Vio Actona</p>
+        <div className="flex gap-4">
           {/* GitHub */}
           <Link
             href="https://github.com/actonaa"

@@ -37,14 +37,14 @@ export default function Navbar() {
         isScrolled ? "bg-white/70 shadow-md backdrop-blur-lg" : "bg-white"
       }`}
     >
-      <div className="flex justify-between max-w-6xl mx-auto py-4 komputer:max-w-7xl">
+      <div className="flex justify-between max-w-6xl mx-auto py-4 px-8 komputer:max-w-7xl tablet:max-w-4xl">
         <Link
           href="https://www.linkedin.com/in/vio-actona-putra-002a76255/"
-          className="text-2xl font-bold self-center text-darkgreen"
+          className="text-2xl font-bold self-center text-darkgreen tablet:text-lg"
         >
           Vio Actona Putra
         </Link>
-        <ul className="flex gap-8 items-center text-darkgreen">
+        <ul className="flex gap-8 items-center text-darkgreen tablet:gap-6">
           <li className="relative">
             <Link
               href="/"

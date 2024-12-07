@@ -1,6 +1,6 @@
 const IntroductionSection = () => {
   return (
-    <div>
+    <div className="tablet:mx-auto tablet:flex tablet:flex-col tablet:items-center tablet:justify-center">
       <h3 className="text-4xl font-bold text-yellow">
         Let Me Introduce Myself
       </h3>

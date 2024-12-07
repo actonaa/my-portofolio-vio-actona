@@ -22,8 +22,8 @@ export default {
       },
     },
     screens: {
-      handphone: { max: "600px" },
-      tablet: { max: "768px" },
+      hp: { max: "639px" },
+      tablet: { min: "640px", max: "1023px" },
       komputer: { min: "1440px" },
     },
   },
