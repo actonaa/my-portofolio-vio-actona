@@ -10,26 +10,26 @@ const CardProfile = () => {
           alt="profile"
           width={700}
           height={700}
-          className="w-[1000px] h-[500px] absolute z-[3] -bottom-[154px] left-[10px] tablet:w-[500px] tablet:h-[400px] tablet:left-1/2 tablet:-translate-x-1/2 tablet:-bottom-[266px]"
+          className="w-[1000px] h-[500px] absolute z-[3] -bottom-[154px] left-[10px] tablet:w-[500px] tablet:h-[400px] tablet:left-1/2 tablet:-translate-x-1/2 tablet:-bottom-[266px] hp:w-[500px] hp:h-[400px] hp:left-[20px]  hp:-bottom-[266px]"
         />
 
         {/* Lingkaran Kuning */}
-        <div className="py-2 w-[200px] text-center rounded-full bg-yellow z-[4] absolute bottom-[10px] left-[10px] tablet:-bottom-[120px] tablet:left-[70px] tablet:w-[150px]">
+        <div className="py-2 w-[200px] text-center rounded-full bg-yellow z-[4] absolute bottom-[10px] left-[10px] tablet:-bottom-[120px] tablet:left-[70px] tablet:w-[150px] hp:hidden">
           7th Nov 2003
         </div>
-        <div className="py-2 w-[200px] text-center rounded-full bg-yellow z-[4] absolute -bottom-[80px] right-4 tablet:-bottom-[220px] tablet:right-[80px] tablet:w-[150px]">
+        <div className="py-2 w-[200px] text-center rounded-full bg-yellow z-[4] absolute -bottom-[80px] right-4 tablet:-bottom-[220px] tablet:right-[80px] tablet:w-[150px] hp:hidden">
           Indonesian
         </div>
 
         {/* Lingkaran Putih */}
-        <div className="w-[275px] h-[275px] bg-white rounded-full absolute z-[2] -bottom-[150px] left-[100px] komputer:left-[130px] tablet:w-[180px] tablet:h-[180px] tablet:-bottom-[230px] tablet:left-[160px]"></div>
+        <div className="w-[275px] h-[275px] bg-white rounded-full absolute z-[2] -bottom-[150px] left-[100px] komputer:left-[130px] tablet:w-[180px] tablet:h-[180px] tablet:-bottom-[230px] tablet:left-[160px] hp:w-[180px] hp:h-[180px] hp:-bottom-[230px] hp:left-[100px]"></div>
 
         {/* Kotak Informasi */}
-        <div className="w-full absolute -bottom-[340px] left-[60px] tablet:left-[130px] tablet:-bottom-[450px]">
-          <div className="bg-darkgreen w-3/4 h-[290px] shadow-xl shadow-darkgreen tablet:w-1/2 tablet:h-[230px]"></div>
-          <div className="bg-black w-3/4 shadow-lg shadow-darkgreen tablet:w-1/2">
+        <div className="w-full absolute -bottom-[340px] left-[60px] tablet:left-[130px] tablet:-bottom-[450px] hp:left-[50px] hp:-bottom-[450px]">
+          <div className="bg-darkgreen w-3/4 h-[290px] shadow-xl shadow-darkgreen tablet:w-1/2 tablet:h-[230px] hp:w-3/4 hp:h-[230px]"></div>
+          <div className="bg-black w-3/4 shadow-lg shadow-darkgreen tablet:w-1/2 hp:w-3/4">
             <div className="text-white w-[200px] mx-auto text-center py-4 text-sm">
-              <h2 className="text-4xl font-bold mb-2 tablet:text-3xl">
+              <h2 className="text-4xl font-bold mb-2 tablet:text-3xl hp:text-3xl">
                 Contact
               </h2>
               <p className="py-1 flex items-center text-center">

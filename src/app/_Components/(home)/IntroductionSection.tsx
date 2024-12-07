@@ -1,7 +1,7 @@
 const IntroductionSection = () => {
   return (
-    <div className="tablet:mx-auto tablet:flex tablet:flex-col tablet:items-center tablet:justify-center">
-      <h3 className="text-4xl font-bold text-yellow">
+    <div className="tablet:mx-auto tablet:flex tablet:flex-col tablet:items-center tablet:justify-center hp:mx-auto hp:flex hp:flex-col hp:items-center hp:justify-center hp:mt-10">
+      <h3 className="text-4xl font-bold text-yellow hp:text-3xl hp:text-center mb-4">
         Let Me Introduce Myself
       </h3>
       <p className="mt-4 text-justify text-white">

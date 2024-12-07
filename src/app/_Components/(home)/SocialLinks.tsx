@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const SocialLinks = () => {
   return (
-    <div className="flex flex-col tablet:mx-auto tablet:items-center tablet:justify-center">
+    <div className="flex flex-col tablet:mx-auto tablet:items-center tablet:justify-center hp:mx-auto hp:items-center hp:justify-center">
       {/* Gambar Profil */}
       <Image
         src="/vio2.jpeg"
@@ -14,7 +14,7 @@ const SocialLinks = () => {
       />
 
       {/* Informasi dan Tautan Sosial */}
-      <div className="ml-14 tablet:ml-0">
+      <div className="ml-14 tablet:ml-0 hp:ml-0">
         <h2 className="text-4xl text-yellow font-bold mt-4">Find Me On</h2>
         <p className="mt-4 text-white">Feel free to connect with me</p>
 
