@@ -1,3 +1,17 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Vio Actona | Resume",
+  description: "Resume of Vio Actona Putra",
+  authors: [
+    {
+      name: "Vio Actona Putra",
+      url: "https://linkedin.com/in/vio-actona-putra",
+    },
+  ],
+  icons: "/myicon.ico",
+};
+
 export default function ResumePage() {
   return (
     <div className="bg-darkgreen pt-36 pb-32">

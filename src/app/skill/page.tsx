@@ -1,6 +1,19 @@
 import CardSkill from "../_Components/CardSkill";
+import type { Metadata } from "next";
 
-export default function AboutPage() {
+export const metadata: Metadata = {
+  title: "Vio Actona | Skills",
+  description: "Skillset of Vio Actona Putra",
+  authors: [
+    {
+      name: "Vio Actona Putra",
+      url: "https://linkedin.com/in/vio-actona-putra",
+    },
+  ],
+  icons: "/myicon.ico",
+};
+
+export default function SkillPage() {
   return (
     <div className="bg-darkgreen pt-44 pb-32">
       <div className="max-w-5xl mx-auto komputer:max-w-6xl text-white">

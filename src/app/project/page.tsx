@@ -1,5 +1,17 @@
 import CardProject from "../_Components/CardProject";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Vio Actona | Projects",
+  description: "Projects of Vio Actona Putra",
+  authors: [
+    {
+      name: "Vio Actona Putra",
+      url: "https://linkedin.com/in/vio-actona-putra",
+    },
+  ],
+  icons: "/myicon.ico",
+};
 export default function ProjectPage() {
   return (
     <div className="bg-darkgreen pt-44 pb-32">

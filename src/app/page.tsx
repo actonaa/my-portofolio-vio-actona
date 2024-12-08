@@ -2,6 +2,19 @@ import CardProfile from "./_Components/(home)/CardProfile";
 import Introduction from "./_Components/(home)/Introduction";
 import IntroductionSection from "./_Components/(home)/IntroductionSection";
 import SocialLinks from "./_Components/(home)/SocialLinks";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Vio Actona | Home",
+  description: "Profile of Vio Actona Putra",
+  authors: [
+    {
+      name: "Vio Actona Putra",
+      url: "https://linkedin.com/in/vio-actona-putra",
+    },
+  ],
+  icons: "/myicon.ico",
+};
 
 export default function Home() {
   return (
