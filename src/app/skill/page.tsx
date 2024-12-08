@@ -7,7 +7,7 @@ export default function AboutPage() {
         <h1 className="flex justify-center items-center text-4xl mb-8">
           Professional <span className="text-yellow ml-2">Skillset</span>
         </h1>
-        <div className="grid grid-cols-4 gap-4 hp:grid-cols-2 hp:px-4">
+        <div className="grid grid-cols-4 gap-4 tablet:grid-cols-3 tablet:px-6 hp:grid-cols-2 hp:px-4">
           <CardSkill
             icon="bxl-html5"
             iconColor="text-amber-700"
@@ -84,7 +84,7 @@ export default function AboutPage() {
         <h1 className="flex justify-center items-center text-4xl mb-8 mt-16">
           <span className="text-yellow mr-2">Tools</span> Work
         </h1>
-        <div className="grid grid-cols-5 gap-4 hp:grid-cols-2 hp:px-4">
+        <div className="grid grid-cols-5 gap-4 tablet:grid-cols-3 tablet:px-6 hp:grid-cols-2 hp:px-4">
           <CardSkill
             icon="bxl-windows"
             iconColor="text-blue-500"

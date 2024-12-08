@@ -22,7 +22,7 @@ const CardProfile = () => {
         </div>
 
         {/* Lingkaran Putih */}
-        <div className="w-[275=px] h-[275px] bg-white rounded-full absolute z-[2] -bottom-[150px] left-[100px] komputer:left-[130px] tablet:w-[180px] tablet:h-[180px] tablet:-bottom-[230px] tablet:left-[160px] hp:w-[200px] hp:h-[200px] hp:-bottom-[150px] hp:left-[95px]"></div>
+        <div className="w-[275px] h-[275px] bg-white rounded-full absolute z-[2] -bottom-[150px] left-[100px] komputer:left-[130px] tablet:w-[180px] tablet:h-[180px] tablet:-bottom-[230px] tablet:left-[160px] hp:w-[200px] hp:h-[200px] hp:-bottom-[150px] hp:left-[95px]"></div>
 
         {/* Kotak Informasi */}
         <div className="w-full absolute -bottom-[340px] left-[60px] tablet:left-[130px] tablet:-bottom-[450px] hp:left-[50px] hp:-bottom-[350px]">
