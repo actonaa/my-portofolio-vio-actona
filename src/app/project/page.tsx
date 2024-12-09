@@ -39,7 +39,7 @@ export default function ProjectPage() {
           />
           <CardProject
             title="Contact CLI NodeJS"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi ex ratione, alias minima ipsam facilis, autem assumenda rerum incidunt aut dignissimos praesentium reprehenderit earum consequuntur laborum! Laudantium, fugiat! Porro!"
+            description="Contact CLI ini dibuat menggunakan Node.js dengan data yang disimpan dalam format JSON. Aplikasi ini dapat diakses dengan perintah node app dan berfungsi untuk membuat catatan kontak."
             imageSrc="/contact-nodejs.png"
             githubLink="https://github.com/actonaa/aplikasi-contact-cli"
             // No demoLink
