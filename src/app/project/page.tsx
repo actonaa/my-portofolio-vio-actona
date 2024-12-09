@@ -24,21 +24,28 @@ export default function ProjectPage() {
         </p>
         <div className="grid grid-cols-3 gap-12 mt-16 tablet:grid-cols-2 tablet:px-6 hp:grid-cols-1 hp:px-8 ">
           <CardProject
+            title="Auth-template"
+            description="Template Auth adalah template yang digunakan untuk mempermudah pembuatan halaman login dan register dalam proyek dengan sistem autentikasi.."
+            imageSrc="/auth-template.png"
+            githubLink="https://github.com/actonaa/auth-template"
+            demoLink="https://auth-template-vio.vercel.app/"
+          />
+          <CardProject
             title="Catatan Belanja"
-            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam eius rerum numquam mollitia inventore ipsum!"
+            description="Website aplikasi ini dibuat menggunakan React Native untuk menyusun laporan catatan belanja sederhana."
             imageSrc="/catatan-belanja.png"
-            githubLink="https://github.com/your-repo"
-            demoLink="https://demo-link.com"
+            githubLink="https://github.com/actonaa/aplikasi-catatan-belanja"
+            demoLink="https://aplikasi-catatan-belanja.vercel.app/"
           />
           <CardProject
             title="Contact CLI NodeJS"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi ex ratione, alias minima ipsam facilis, autem assumenda rerum incidunt aut dignissimos praesentium reprehenderit earum consequuntur laborum! Laudantium, fugiat! Porro!"
             imageSrc="/contact-nodejs.png"
-            githubLink="https://github.com/another-repo"
+            githubLink="https://github.com/actonaa/aplikasi-contact-cli"
             // No demoLink
           />
           <CardProject
-            title="Proyek Tanpa Demo"
+            title="Website Weeboo"
             description="Ini adalah deskripsi proyek tanpa demo."
             imageSrc="/weeboo.png"
             githubLink="https://github.com/another-repo"

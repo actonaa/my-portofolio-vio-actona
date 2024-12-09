@@ -6,7 +6,7 @@ const SocialLinks = () => {
     <div className="flex flex-col tablet:mx-auto tablet:items-center tablet:justify-center hp:mx-auto hp:items-center hp:justify-center">
       {/* Gambar Profil */}
       <Image
-        src="/vio2.jpeg"
+        src="/formal.png"
         alt="profile"
         className="w-[300px] h-[300px] rounded-full"
         width={700}
